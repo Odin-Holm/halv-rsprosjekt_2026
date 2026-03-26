@@ -1,1 +1,1 @@
-# halv-rsprosjekt_2026
+lage en wiki med alle items, mutatuons, classes og passives for mewgenics.
