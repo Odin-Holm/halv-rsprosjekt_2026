@@ -6,12 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>disorders</h1>
+        <h1>disorders</h1>
     <table>
         <tr><th>id</th><th>name</th><th>efffect</th><th>strength</th><th>dexterity</th><th>vitality</th><th>inteligence</th><th>speed</th><th>charisma</th><th>luck</th></tr>
-        {% for disorder in disorders %}
+        {% for passive in passives %}
             <tr>
-                {%  for info in disorder %}
+                {%  for info in passive %}
                 <td>{{info}}</td>
                 {% endfor %}
             </tr>
